@@ -5,11 +5,8 @@ body {
     font-weight: 100;
     background: linear-gradient(0.25turn, #76adda,#54a158);
     letter-spacing: 2px;
-    /* text-align: justify; */
     line-height: 1.5;
-    /* font-size: 0.9vw; */
 }
-
 
 * {
     margin: 0;
@@ -167,12 +164,9 @@ header {
 
 #work{
     margin-top: 5vh;
-    background-color: #111111;
     display: inline-block;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
-    border-radius: 20px;
     width: 100%;
     color: rgb(233, 229, 250);
 }
@@ -187,6 +181,7 @@ header {
     display: flex;
     align-items: center;
     margin-top: 1vw;
+    height: 25vh;
     background-color: #111111;
    
 }
@@ -197,12 +192,9 @@ header {
 }
 
 .logox {
+    margin-left: 2vw;
     background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
-
 
 
 /*--------------------------Formations---------------------------*/
@@ -282,19 +274,20 @@ header {
 }
 
 
-
 /*--------------------------Competences--------------------------*/
 #skill {
     margin-top: 8vh;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
     border-radius: 20px;
     width: 100%;
-    height: 65vh;
     background-color: #111111;
     color: rgb(233, 229, 250);
+}
+
+#skill h3 {
+    font-size:large;
+    text-transform: uppercase;
+    text-decoration: overline;
 }
 
 #skill li {
@@ -310,12 +303,26 @@ header {
     width: 100%;
 }
 
-
-
-
+.tittlestyle2 {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 60%;
+    display: flex;
+}
 
 
 /*--------------------------Loisirs------------------------------*/
+
+.tittlestyle3{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:large;
+    text-transform: uppercase; 
+}
 
 /*-----Sports------*/
 .photo-grid {
@@ -410,34 +417,49 @@ header {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------------------4th part of the CSS : Customization of the footer of the page------*/
 
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-color: #111111;
+    color : rgb(233, 229, 250);
+}
+
+.Tittlestyle2 {
+    margin-top: 1vh;
+    margin-left: 25%;
+    width: 50%;
+    height: 5vh;
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer button{
+    margin-left: 1%;
+}
 
 
+button {
+    padding: 10px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    border: none;
+    background-color: #111111;
+}
 
-
-
-
-
-
-
-
-
-
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.801);
+}
 
 
 
