@@ -1,0 +1,62 @@
+/* 1st Part of the CSS : customization of the body  */
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url("../img/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* 2nd Part of the CSS : stylized the visite carte */
+.card{
+    background-color: #f7f5ec;
+    text-align: center;
+    position: fixed;
+    border-radius: 4%;
+    width: 300px;
+    height: 350px;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+    transition: 0.4s;
+}
+
+.photo {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.photo img {
+    border-radius: 45%;
+}
+
+/* 3rd Part of the CSS : customization of the buttons  */
+.button a{
+    font-family: 'Titillium Web', sans-serif;
+    color:black;
+    text-decoration: none;
+    size: 30px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+button:hover {
+    /* Add shadows to create the effect */
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.712), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

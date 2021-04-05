@@ -9,37 +9,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebCV_AlvesKévin</title>
     <link rel="icon" href="../img/curriculum-vitae.png">
-    <link rel="stylesheet" href="../css/CV_main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css files -->
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/main_content.css">
+    <link rel="stylesheet" href="../css/main_content.css">
 </head>
 
 <body>
     <header>
-        <div class="header-navbar">
-            <nav class=".navbar">
-                <div class="nav-content">
-                    <div class="M-Title">
-                        <a href="CV.html"><h2>curriculum vitae</h2></a>
-                    </div>
-                    <div class="y">
-                        <ul class="M-Link">
-                            <li><a href="#ab">à propos</a></li>
-                            <li><a href="#xp">Expériences</a></li>
-                            <li><a href="#frm">Formations</a></li>
-                            <li><a href="#Comp">Compétences</a></li>
-                            <li><a href="#hob">Centres d'intérêt</a></li>
-                        </ul>
-                    </div>
-                    <!-- <div class="menu_burger">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
-                    </div> -->
+        <nav class=".navbar">
+            <div class="nav-content">
+                <div class="M-Title">
+                    <a href="CV.html"><h2>Site.CV</h2></a>
                 </div>
-            </nav>
-        </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="#ab">à propos</a>
+                    <a href="#xp">Expériences</a>
+                    <a href="#frm">Formations</a>
+                    <a href="#Comp">Compétences</a>
+                    <a href="#hob">Centres d'intérêt</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="Burger_Menu" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div> 
+                </div>
+            </div>
+        </nav>
     </header>
 
     <div class="page_content">
@@ -57,7 +58,7 @@
         </div>
         <div class="main_Content">
             <div class="section" id="about">
-                <div class="left_section">
+                <div class="left_section padding">
                     <h2>à propos</h2>
                     <p>Après un premier cycle d'étude de 3 ans en comptabilité et gestion, j'ai choisi de m'orienter vers des études d'informatiques, en débutant en première année de Bachelor au sein de l'école Paris Ynov Campus. </p>
                     <br>
@@ -69,7 +70,7 @@
                         <li>Capacité d'adaptation</li>
                     </ul>
                 </div>
-                <div class="right_section">
+                <div class="right_section padding">
                     <h2>informations</h2>
                     <ul class="Info" >
                         <li><strong>Adresse</strong> : Paris, Île-de-France, France</li>
@@ -86,7 +87,7 @@
             </div>
             <div class="section" id="work">
                 <div class="container_xp">
-                    <div class="card cardx" data-aos="fade-right">
+                    <div class="card cardx" data-aos="fade-right"  data-aos-duration="800">
                         <div class="logo_1 logox">
                             <img src="../img/img_jobs/Decat.jpg" alt="Decathlon">
                         </div>
@@ -101,7 +102,7 @@
     
                         </div>
                     </div>
-                    <div class="card2 cardx" data-aos="fade-left">
+                    <div class="card2 cardx" data-aos="fade-left" data-aos-duration="800">
                         <div class="logo_2 logox">
                             <img src="../img/img_jobs/webedia.png" alt="Webedia">
                         </div>
@@ -113,7 +114,7 @@
                             <p><strong>Missions </strong> : Contrôle saisie des services clients, fournisseurs, trésorerie ; Aide à la clôture des comptes ; Rapprochement bancaire ; Lettrage ; Déclaration TVA et DES.</p>
                         </div>
                     </div>
-                    <div class="card3 cardx" data-aos="fade-right">
+                    <div class="card3 cardx" data-aos="fade-right" data-aos-duration="800">
                         <div class="logo_3 logox">
                             <img src="../img/img_jobs/BDO.jpg" alt="BDO">
                         </div>
@@ -127,7 +128,7 @@
                             <p><strong>Missions </strong> : Tenue comptabilité du cabinet en interne ; Saisie factures fournisseurs ; Encaissement client ; Paiement fournisseurs ; TVA et DAS2.</p>
                         </div>
                     </div>
-                    <div class="card4 cardx" data-aos="fade-left">
+                    <div class="card4 cardx" data-aos="fade-left" data-aos-duration="800">
                         <div class="logo_4 logox">
                             <img src="../img/img_jobs/PEP7.png" alt="Pep7" >
                         </div>
@@ -141,7 +142,7 @@
                             <p><strong>Missions </strong> : Nettoyage surfaces et locaux ; Évacuation des encombrants ; Livraison de produit d’entretien.</p>
                         </div>
                     </div>
-                    <div class="card5 cardx" data-aos="fade-right">
+                    <div class="card5 cardx" data-aos="fade-right" data-aos-duration="800">
                         <div class="logo_5 logox">
                             <img src="../img/img_jobs/PREX.jpg" alt="Prexilexis">
                         </div>
@@ -155,7 +156,7 @@
                             <p><strong>Missions </strong> : Tenue comptable dossiers clients ; Saisie des achats et ventes ; Rapprochement bancaire ; Lettrage ; Analyse des comptes ; OD de paie.</p>
                         </div>
                     </div>
-                    <div class="card6 cardx" data-aos="fade-left">
+                    <div class="card6 cardx" data-aos="fade-left" data-aos-duration="800">
                         <div class="logo_6 logox">
                             <img src="../img/img_jobs/logo_ts3.jpg" alt="TS3">
                         </div>
@@ -169,7 +170,7 @@
                             <p><strong>Missions </strong> : Saisie des achats et ventes ; Opérations d’inventaires ; Classement ; Lettrage de comptes.</p>
                         </div>
                     </div>
-                    <div class="card7 cardx" data-aos="fade-right" >
+                    <div class="card7 cardx" data-aos="fade-right" data-aos-duration="800">
                         <div class="logo_7 logox">
                             <img src="../img/img_jobs/oralia.png" alt="Oralia">
                         </div>
@@ -189,7 +190,8 @@
                 <h2><strong>Formations</strong></h2>
             </div>
             <div class="section" id="education">
-                <div class="form1 formx">
+                <div class="form1 formx " data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="form_description1 descriptx">
                         <h3>2020 – 2022</h3>
                         <br>
@@ -198,7 +200,8 @@
                         <p>Paris Ynov Campus à Nanterre.</p>
                     </div>
                 </div>
-                <div class="form2 formx">
+                <div class="form2 formx" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="form_description2 descriptx">
                         <h3>2019 – 2020</h3>
                         <br>
@@ -207,7 +210,8 @@
                         <p> En initiale avec Le CNAM à Paris.</p>
                     </div>
                 </div>
-                <div class="form3 formx">
+                <div class="form3 formx" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="form_description3 descriptx">
                         <h3>2017 – 2019</h3>
                         <br>
@@ -216,7 +220,8 @@
                         <p>En alternance avec L'ENOES à Paris.</p>
                     </div>
                 </div>
-                <div class="form4 formx">
+                <div class="form4 formx" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="form_description4 descriptx">
                         <h3>2015 – 2017</h3>
                         <br>
@@ -225,7 +230,8 @@
                         <p>Lycée Montalembert à Courbevoie.</p>
                     </div>
                 </div>
-                <div class="form5 formx">
+                <div class="form5 formx" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <div class="form_description5 descriptx">
                         <h3>2017 – 2019</h3>
                         <br>
@@ -240,12 +246,12 @@
                 <h2><strong>Compétences</strong></h2>
             </div>
             <div class="section" id="skill">
-                <div class="leftSkill">
+                <div class="leftSkill padding">
                     <br>
                     <div class="T1 tittlestyle2">
                         <h3>Logiciels Comptables : </h3>
                     </div>
-                    <ul class="Log_Compt photo-grid2 tittlestyle2">
+                    <ul class="Log_Compt photo-grid2 tittlestyle2" data-aos="fade-up" data-aos-duration="800">
                         <li><img src="../img/icon/sage.png"> SAGE</li>
                         <li><img src="../img/icon/budget.png"> CEGID</li>
                         <li><img src="../img/icon/bank.png"> Transfert Banque</li>
@@ -254,16 +260,16 @@
                     <div class="T2 tittlestyle2">
                         <h3>Outils Bureautiques : </h3>
                     </div>
-                    <ul class="Outils_Bur photo-grid2 tittlestyle2"> 
+                    <ul class="Outils_Bur photo-grid2 tittlestyle2" data-aos="fade-up" data-aos-duration="800"> 
                         <li><img src="../img/icon/office.png"> Pack Office</li>
                         <li><img src="../img/icon/teams.png"> Teams</li>
                     </ul>
                 </div>
-                <div class="MiddleSkil">
+                <div class="MiddleSkil padding">
                     <div class="T3 tittlestyle2">
                         <h3>Autres Logiciels :</h3>
                     </div>
-                    <ul class="Autres_logi photo-grid2 tittlestyle2"> 
+                    <ul class="Autres_logi photo-grid2 tittlestyle2" data-aos="fade-up" data-aos-duration="800"> 
                         <li><img src="../img/icon/slack.png"> Slack</li>
                         <li><img src="../img/icon/trello.png"> Trello</li>
                         <li><img src="../img/icon/telegram.png"> Télégram</li>
@@ -275,18 +281,18 @@
                         <li><img src="../img/icon/nodejs.png"> Node js </li>
                     </ul>
                 </div>
-                <div class="RightSkill">
+                <div class="RightSkill padding">
                     <div class="T4 tittlestyle2">
                         <h3> Systèmes D'Exploitation :</h3>
                     </div>
-                    <ul class="OS photo-grid2 tittlestyle2">
-                        <li><img src="../img/icon/windows.png"> Windows</li>
-                        <li><img src="../img/icon/ubuntu.png"> Ubuntu </li>
+                    <ul class="OS photo-grid2 tittlestyle2" data-aos="fade-up" data-aos-duration="800">
+                        <li><img src="../img/icon/windows.png" > Windows</li>
+                        <li><img src="../img/icon/ubuntu.png" > Ubuntu </li>
                     </ul>
                     <div class="T5 tittlestyle2">
                         <h3>Langages Informatiques :</h3>
                     </div>
-                    <ul class="LanguageInfo photo-grid2 tittlestyle2"> 
+                    <ul class="LanguageInfo photo-grid2 tittlestyle2" data-aos="fade-up" data-aos-duration="800"> 
                         <li><img src="../img/icon/html5.png"> HTML </li>
                         <li><img src="../img/icon/css-3.png"> CSS </li>
                         <li><img src="../img/icon/javascript.png"> Javascript </li>
@@ -306,25 +312,29 @@
             </div>
             <div class="section" id="hobbies">
                 <div class="photo-grid">
-                    <div class="photo1 photo-tall photo-wide photoeffect">
+                    <div class="photo1 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
                         <div class="text1 textx">
                             <h2>Basket-Ball</h2>
                             <p> Pratique de ce sport pendant 4 ans </p>
                         </div>
                     </div>
-                    <div class="photo2 photo-tall photo-wide photoeffect">
+                    <div class="photo2 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
                         <div class="text2 textx">
                             <h2>Judo</h2>
                             <p> Pratique de ce sport pendant 3 ans </p>
                         </div>
                     </div>
-                    <div class="photo3 photo-tall photo-wide photoeffect">
+                    <div class="photo3 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="3000">
                         <div class="text3 textx">
                             <h2>Cyclisme</h2>
                             <p> Sortie en vélo de route tous les week-ends depuis 2 ans </p>
                         </div>
                     </div>
-                    <div class="photo4 photo-tall photo-wide photoeffect">
+                    <div class="photo4 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000">
                         <div class="text4 textx">
                             <h2>Street-Workout</h2>
                             <p> Pratique de ce sport depuis 1 ans </p>
@@ -335,52 +345,57 @@
                     <h2><strong>Intérêt</strong></h2>
                 </div>              
                 <div class="photo-grid">
-                    <div class="photo5 photo-tall photo-wide photoeffect">
+                    <div class="photo5 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="text5 textx">
                             <h2>Sports Automobiles</h2>
                             <p>Passionné de Formule 1 et de sports automobiles</p>
                         </div>
                     </div>
-                    <div class="photo6 photo-tall photo-wide photoeffect">
+                    <div class="photo6 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="text6 textx">
                             <h2>Motos</h2>
                             <p>Passionné de Moto et du MotoGP. </p>
                         </div>
                     </div>
-                    <div class="photo7 photo-tall photo-wide photoeffect">
+                    <div class="photo7 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="text7 textx">
                             <h2>Architecture</h2>
                             <p>Admirateur de l'architecture et du design d'intérieur.</p>
                         </div>
                     </div>
-                    <div class="photo8 photo-tall photo-wide photoeffect">
+                    <div class="photo8 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="text8 textx">
                             <h2>Les échecs</h2>
                             <p> Pratique des échecs en loisir depuis 3 ans. </p>
                         </div>
                     </div>
-                    <div class="photo9 photo-tall photo-wide photoeffect">
+                    <div class="photo9 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <div class="text9 textx">
                             <h2>L'informatique</h2>
                             <p>Passionné par l'informatique et les nouvelles technologies.</p>
                         </div>
                     </div>
-                    <div class="photo10 photo-tall photo-wide photoeffect">
+                    <div class="photo10 photo-tall photo-wide photoeffect" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" >
                         <div class="text10 textx">
                             <h2>Jeux-Vidéos</h2>
                             <p>Sur mon temps libre, j'aime jouer aux jeux vidéos avec mes amis. Je m'intéresse aussi au développement des Jeux-Vidéos (Je souhaite en réaliser moi-même).</p>
                         </div>
                     </div>
                 </div>
-                <br>
             </div>
         </div>
     </div>
     
     <!-- bottom_content -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="containerbottom">
-            <div class="author">
+            <div class="author padding">
                 <div class="T-author Tittlestyle2 flex">
                     <h4> Kévin ALVES </h4>
                 </div>
@@ -414,6 +429,10 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-</script>
 
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+
+</script>
 </html>
