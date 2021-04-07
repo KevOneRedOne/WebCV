@@ -1,0 +1,214 @@
+/*------------------------5th part of the CSS : Responsive Web page------*/
+
+/*------------------------Responsive for Laptop ----------------*/
+
+
+
+
+
+
+
+
+/*------------------------Responsive for Mobile/Tablet ---------*/
+
+@media only screen and (max-height: 640px){
+    /*------------header_content-----------*/
+    .background {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .top_page_profile {
+        width: 35%;
+        height: 50%;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+}
+@media only screen and (max-height: 568px){
+    /*------------header_content-----------*/
+    .background {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    img {
+        width: 75px;
+        height: 90px;
+    }
+
+    .top_page_profile {
+        width: 35vw;
+        height: 50vh;
+    }
+
+    .name {
+        font-size: 0.6em;
+    }
+
+}
+@media only screen and (max-height: 540px){
+    /*------------header_content-----------*/
+    .background {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .top_page_profile {
+        width: 20vw;
+        height: 30vh;
+    }
+
+    .name {
+        font-size: 0.6em;
+    }
+
+}
+@media only screen and (max-height: 414px){
+    /*------------header_content-----------*/
+    .background {
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .navbar {
+        height: 12vh;
+    }
+
+    img {
+        width: 80px;
+        height: 110px;
+    }
+
+    .top_page_profile {
+        width: 22vw;
+        height: 42vh;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+}
+@media only screen and (max-height: 411px){
+    /*------------header_content-----------*/
+    .background {
+        width: 100vw;
+        height: 90vh;
+    }
+
+    .navbar {
+        height: 12vh;
+    }
+
+    img {
+        width: 80px;
+        height: 110px;
+    }
+
+    .top_page_profile {
+        width: 22vw;
+        height: 42vh;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+}
+@media only screen and (max-height: 375px){
+    /*------------header_content-----------*/
+    .navbar {
+        height: 12vh;
+    }
+
+    .background {
+        width: 100vw;
+        height: 95vh;
+    }
+
+    img {
+        width: 80px;
+        height: 110px;
+    }
+
+    .top_page_profile {
+        width: 25vw;
+        height: 45vh;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+}
+@media only screen and (max-height: 360px){
+    /*------------header_content-----------*/
+    .navbar {
+        height: 12vh;
+        font-size: 0.8em;
+    }
+    .M-Title{
+        margin-right: 40vw;
+    }
+    
+    .background {
+        width: 100vw;
+        height: 90vh;
+    }
+
+    img {
+        width: 80px;
+        height: 110px;
+    }
+
+    .top_page_profile {
+        width: 25vw;
+        height: 60vh;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+}
+
+@media only screen and (max-height: 320px){
+    /*------------header_content-----------*/
+    .navbar {
+        height: 15vh;
+    }
+    
+    .background {
+        width: 100vw;
+        height: 95vh;
+    }
+
+    img {
+        width: 80px;
+        height: 110px;
+    }
+
+    .top_page_profile {
+        width: 25vw;
+        height: 55vh;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+}

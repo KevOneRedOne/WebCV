@@ -1,0 +1,2626 @@
+/*------------------------5th part of the CSS : Responsive Web page------*/
+
+/*------------------------Responsive for Mobile/Tablet ---------*/
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------IPAD Pro--------------------- */
+@media only screen and (max-width: 1024px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+        font-size: 2.2em;
+    }
+
+    img {
+        width: 110px;
+        height: 150px;
+    }
+
+    .top_page_profile {
+        width: 20vw;
+        height: 18vh;
+    }
+
+    .name {
+        font-size: 1em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 5.5vw;
+        margin-right: 7vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 1.2em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 48vh;
+        margin-bottom: 5vh;
+    }
+
+    #about h2 {
+        font-size: 1.5em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 85vw;
+        margin-bottom: 6vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 58vw;
+        margin-left: 15vw;
+        height: 10vh;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    #work {
+        font-size: 1em;
+        height: 200vh;
+    }
+
+    #work img {
+        width: 280px;
+        height: 120px;
+    }
+
+    .cardx {
+        height: 25vh;
+        width: 90vw;
+        margin-bottom: 3vh;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1.05em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 180px;
+        grid-auto-columns: 15vw;
+        gap : 1vh;
+        height: 60vh;
+        grid-template-columns: repeat(4, 1fr)
+    }
+
+    .form3 {
+        grid-row: span 2 / auto;
+        grid-column: span 2 / auto ;
+    }
+
+    .form4, .form5 {
+        grid-column: span 2 / auto;
+    }
+
+    .descriptx {
+        font-size: 1.1em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 1.1em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 95vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap: 2vw;
+        width: 20vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 72px;
+        height: 72px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 1.5em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 180px;
+        grid-template-columns: repeat(2, 44vw);
+    }
+
+
+    .textx {
+        font-size: 1.1em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo8,.photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .copyright {
+        font-size: 1em;
+    }
+
+    .footer {
+        height: 411px;
+    }
+}
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------IPAD--------------------- */
+@media only screen and (max-width: 768px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+    }
+
+    img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .top_page_profile {
+        width: 30vw;
+        height: 20vh;
+    }
+
+    .name {
+        font-size: 0.9em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 6vw;
+        margin-right: 7vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 1em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 55vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 86vw;
+        margin-bottom: 7vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 70vw;
+        margin-left: 10vw;
+        height: 14vh;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #work {
+        font-size: 0.9em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 235vh;
+    }
+
+    #work img {
+        width: 280px;
+        height: 120px;
+    }
+
+    .cardx {
+        height: 10vh;
+        display: inline;
+        width: 200vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 180px;
+        grid-auto-columns: 15vw;
+        gap : 1vh;
+        height: 80vh;
+        grid-template-columns: repeat(4, 1fr)
+    }
+
+    .form3 {
+        grid-row: span 2 / auto;
+        grid-column: span 2 / auto ;
+    }
+
+    .form4, .form5 {
+        grid-column: span 2 / auto;
+    }
+
+    .descriptx {
+        font-size: 0.8em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 110vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(6, 1fr);
+        grid-column-gap: 2vw;
+        width: 20vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 64px;
+        height: 64px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 1.2em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 200px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 1em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo8,.photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .copyright {
+        font-size: 0.8em;
+    }
+
+    .footer {
+        height: 330px;
+    }
+}
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------Galaxy Fold------------------- */
+@media only screen and (max-width: 717px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 70vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+    }
+
+    img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .top_page_profile {
+        width: 25vw;
+        height: 38vh;
+    }
+
+    .name {
+        font-size: 0.8em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 5.5vw;
+        margin-right: 5vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 0.8em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 80vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 86vw;
+        margin-bottom: 7vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 70vw;
+        margin-left: 10vw;
+        height: 14vh;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    #work {
+        font-size: 0.8em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 380vh;
+    }
+
+    #work img {
+        width: 220px;
+        height: 100px;
+    }
+
+    .cardx {
+        height: 20vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 150px;
+        gap : 1vh;
+        height: 130vh;
+    }
+
+    .descriptx {
+        font-size: 0.8em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 200vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 40px;
+        height: 40px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 1.2em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.8em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo8,.photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------Mobileplus------------------- */
+@media only screen and (max-width: 540px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+    }
+
+    img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .top_page_profile {
+        width: 40vw;
+        height: 30vh;
+    }
+
+    .name {
+        font-size: 0.9em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 0.8em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 65vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 86vw;
+        margin-bottom: 7vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 70vw;
+        margin-left: 10vw;
+        height: 14vh;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    #work {
+        font-size: 0.8em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 290vh;
+    }
+
+    #work img {
+        width: 200px;
+        height: 80px;
+    }
+
+    .cardx {
+        height: 20vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 150px;
+        gap : 1vh;
+        height: 180vh;
+        grid-column: 0;
+        grid-row: 0;
+        grid-template-columns: repeat(1, 72vw)
+    }
+
+    .descriptx {
+        font-size: 0.8em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 150vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 40px;
+        height: 40px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 1.2em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.8em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo8,.photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------Mobileplus------------------- */
+@media only screen and (max-width: 425px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+    }
+
+    img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .top_page_profile {
+        width: 40vw;
+        height: 32vh;
+    }
+
+    .name {
+        font-size: 0.8em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 0.8em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 75vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 86vw;
+        margin-bottom: 7vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 70vw;
+        margin-left: 10vw;
+        height: 14vh;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    #work {
+        font-size: 0.8em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 340vh;
+    }
+
+    #work img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .cardx {
+        height: 10vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 190px;
+        grid-row: none;
+        grid-column: none;
+        gap : 1vh;
+        height: 200vh;
+        grid-template-columns: repeat(1, 45vw)
+    }
+
+    .descriptx {
+        font-size: 0.8em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 0.8em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 160vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 36px;
+        height: 36px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 1.2em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.8em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo8,.photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------Iphone 6/7/8plus------------------- */
+@media only screen and (max-device-width: 414px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+        font-size: 1.3em;
+    }
+
+    img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .top_page_profile {
+        width: 40vw;
+        height: 25vh;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 0.8em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 70vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 86vw;
+        margin-bottom: 7vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 70vw;
+        margin-left: 10vw;
+        height: 12vh;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    #work {
+        font-size: 0.8em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 280vh;
+    }
+
+    #work img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .cardx {
+        height: 10vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 190px;
+        grid-row: none;
+        grid-column: none;
+        gap : 1vh;
+        height: 220vh;
+        grid-template-columns: repeat(1, 70vw)
+    }
+
+    .descriptx {
+        font-size: 0.8em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 0.8em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 140vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 36px;
+        height: 36px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 1.2em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.8em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo8,.photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------Pixel 2------------------- */
+@media only screen and (max-device-width: 411px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+    }
+
+    img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .top_page_profile {
+        width: 40vw;
+        height: 25vh;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 0.8em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 70vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 86vw;
+        margin-bottom: 7vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 70vw;
+        margin-left: 10vw;
+        height: 12vh;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    #work {
+        font-size: 0.8em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 280vh;
+    }
+
+    #work img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .cardx {
+        height: 10vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 120px;
+        grid-row: none;
+        grid-column: none;
+        gap : 1vh;
+        height: 150vh;
+        grid-template-columns: repeat(1, 75vw)
+    }
+
+    .descriptx {
+        font-size: 0.8em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 0.8em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 140vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 36px;
+        height: 36px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 1.2em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.8em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo8,.photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------IPHONE 6/7/8------------------- */
+@media only screen and (max-device-width: 375px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+        font-size: 1.3em;
+    }
+
+    img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .top_page_profile {
+        width: 40vw;
+        height: 28vh;
+    }
+
+    .name {
+        font-size: 0.7em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 0.8em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 70vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 86vw;
+        margin-bottom: 7vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 74vw;
+        margin-left: 8vw;
+        height: 14vh;
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 4vh;
+    }
+
+    #work {
+        font-size: 0.8em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 315vh;
+        margin-bottom: 8vh;
+    }
+
+    #work img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .cardx {
+        height: 10vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 190px;
+        grid-row: none;
+        grid-column: none;
+        gap : 1vh;
+        height: 250vh;
+        grid-template-columns: repeat(1, 70vw)
+    }
+
+    .descriptx {
+        font-size: 0.8em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 0.8em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 170vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 36px;
+        height: 36px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 1.2em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.8em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo8,.photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------MOTO G4------------ */
+@media only screen and (max-device-width: 360px){
+    /* -------------header------------ */
+    .background {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+        font-size: 1.2em;
+    }
+
+    img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .top_page_profile {
+        width: 40vw;
+        height: 25vh;
+    }
+
+    .name {
+        font-size: 0.6em;
+    }
+
+    /* -------------main content------------ */
+    .main_Content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    /* -------------About------------------- */
+    #about {
+        font-size: 0.6em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 55vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        padding: 0;
+        width: 86vw;
+        margin-bottom: 7vh;
+    }
+
+    .right_section {
+        padding: 0;
+        margin-left: 2vw;
+        text-align: justify;
+    }
+
+    /* -------------XP Professionnel------------ */
+    .T-work {
+        font-size: 0.4em;
+    }
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 60vw;
+        margin-left: 15vw;
+        height: 10vh;
+        text-align: center;
+        font-size: 0.5em;
+    }
+
+    #work {
+        font-size: 0.6em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 248vh;
+    }
+
+    #work img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .cardx {
+        height: 10vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* -------------Formation------------ */
+
+    #education {
+        grid-auto-rows: 120px;
+        grid-row: none;
+        grid-column: none;
+        gap : 1vh;
+        width: 90vw;
+        height: 160vh;
+        grid-template-columns: repeat(1, 75vw)
+    }
+
+    .descriptx {
+        font-size: 0.6em;
+    }
+    .descriptx h3,h4 {
+        font-size: 1em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    /* -------------Compétences------------ */
+
+    #skill{
+        font-size: 0.6em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 140vh;
+    }
+
+    #skill h3 {
+        font-size: 1.1em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 2vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 36px;
+        height: 36px;
+    }
+    /* -------------Centres d'intérêt------------ */
+    .T-Sports h2{
+        font-size: 0.9em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.6em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    /* -------------footer------------ */
+    .containerbottom img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 250px;
+    }
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------IPHONE 5------------------ */
+@media only screen and (max-device-width: 320px){
+    .background {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+    }
+
+    img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .top_page_profile {
+        width: 40vw;
+        height: 28vh;
+    }
+
+    .name {
+        font-size: 0.6em;
+    }
+    
+    .main_Content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+
+    #about {
+        font-size: 0.6em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 70vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        margin-right : 5vw;
+        margin-left: 1vw;
+        margin-bottom: 2vh;
+        width: 100%;
+    }
+
+    .right_section {
+        margin: 0;
+        text-align: left;
+
+    }
+
+    .T-work {
+        font-size: 0.4em;
+    }
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 60vw;
+        margin-left: 15vw;
+        height: 10vh;
+        text-align: center;
+        font-size: 0.5em;
+    }
+
+    #work {
+        font-size: 0.6em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 280vh;
+        margin-bottom: 3vh;
+    }
+
+    #work img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .cardx {
+        height: 10vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    #education {
+        grid-auto-rows: 100px;
+        grid-row: none;
+        grid-column: none;
+        gap : 1vh;
+        height: 160vh;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    }
+
+    .descriptx {
+        font-size: 0.48em;
+    }
+    .descriptx h3,h4 {
+        font-size: 0.9em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    #skill{
+        font-size: 0.5em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 170vh;
+    }
+
+    #skill h3 {
+        font-size: 1.2em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 3vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .T-Sports h2{
+        font-size: 0.9em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.6em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    .containerbottom img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 250px;
+    }
+}
+
+
+
+
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+/* ---------------------------------------------- */
+
+
+
+
+/* -------------Galaxy Fold------------ */
+@media only screen and (max-width: 280px){
+    .background {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .M-Title h2{
+        display: inherit;
+    }
+
+    img {
+        width: 80px;
+        height: 100px;
+    }
+
+    .top_page_profile {
+        width: 40vw;
+        height: 22vh;
+    }
+
+    .name {
+        font-size: 0.5em;
+    }
+    
+    .main_Content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    #about {
+        font-size: 0.5em;
+        text-align: center;
+        display: inline-block;
+        width: 90vw;
+        height: 50vh;
+        margin-bottom: 2vh;
+    }
+
+    #about h2 {
+        font-size: 1.6em ;
+    }
+
+    .left_section {
+        margin-right : 5vw;
+        margin-left: 1vw;
+        width: 100%;
+    }
+
+    .right_section {
+        margin: 0;
+        text-align: left;
+
+    }
+
+    .T-work {
+        font-size: 0.4em;
+    }
+
+    .Tittlestyle {
+        margin-top: 5vh;
+        width: 60vw;
+        margin-left: 15vw;
+        height: 10vh;
+        text-align: center;
+        font-size: 0.5em;
+    }
+
+    #work {
+        font-size: 0.6em;
+        background-color: #111111;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.801);
+        height: 255vh;
+    }
+
+    #work img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .cardx {
+        height: 10vh;
+        display: inline;
+        width: 50vw;
+        background-color: #111111;
+    }
+
+    .stylex{
+        margin-left: 3vw;
+        margin-right: 1vh;
+    }
+
+    .logox{
+        background-color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+    }
+
+    #education {
+        grid-auto-rows: 100px;
+        grid-row: none;
+        grid-column: none;
+        gap : 1vh;
+        height: 130vh;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    }
+
+    .descriptx {
+        font-size: 0.48em;
+    }
+    .descriptx h3,h4 {
+        font-size: 0.9em;
+    }
+
+    .formx:hover .descriptx {
+        margin-left: 2vh;
+        margin-right: 1vh;
+    }
+
+    #skill{
+        font-size: 0.5em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 90vw;
+        height: 150vh;
+    }
+
+    #skill h3 {
+        font-size: 1.2em;
+    }
+
+    .leftSkill {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+
+    .padding {
+        padding: 1vh;
+    }
+
+    .Autres_logi {
+        display: grid;
+        margin-bottom: 1vh ;
+    }
+
+    .OS {
+        margin-bottom: 3vh;
+    }
+
+    .RightSkill .LanguageInfo {
+        display: grid;
+    }
+
+    .photo-grid2{
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 2vw;
+        width: 1vw;
+        gap : 5vw;
+    }
+
+    #skill img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .T-Sports h2{
+        font-size: 0.9em;
+    }
+
+    .photo-grid {
+        width: 90vw;
+        grid-auto-rows: 100px;
+    }
+    .photo-wide {
+        grid-column: 0vw;
+    }
+    .photo-tall {
+        grid-row: 0vh;
+    }
+
+    .textx {
+        font-size: 0.6em;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    .photoeffect:hover .textx {
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+
+    .photo10, .photo9, .photo7, .photo6, .photo5 {
+        grid-column: span 2/ auto;
+        grid-row: span 2 / auto;
+    }
+
+    .containerbottom img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+    .footer {
+        height: 250px;
+    }
+}

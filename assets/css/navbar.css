@@ -1,24 +1,23 @@
 /*--------------------------1st part of the Css : The Navbar-----------------------------------*/
 header {
     position: fixed;
+    z-index: 999;
+}
+
+.navbar {
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
     height: 8vh;
-    z-index: 2;
     box-shadow: 0 4px 10px 0 rgb(255, 255, 255);
     background-color: #111111;
 }
-.nav-content {
-    z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .M-Title {
     text-transform: uppercase;
-    margin-right: 20vh;
+    margin-right: 5vh;
     
 }
 .M-Title a {
@@ -26,9 +25,7 @@ header {
     color : rgb(233, 229, 250);
 }
 
-
 .topnav{
-    width: 100%;
     overflow: hidden;
     text-align: center;
 }
@@ -57,7 +54,7 @@ header {
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color:rgb(233, 229, 250);;
+    background-color:rgb(233, 229, 250);
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -66,9 +63,9 @@ header {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
 }
-  
-.change .bar2 {opacity: 0;}
-  
+.change .bar2 {
+    opacity: 0;
+}
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
@@ -76,19 +73,69 @@ header {
 
 
 
-
-
-
 /*--------------------------2nd part of the Css : The Responsive Navbar-----------------------------------*/
 
-@media screen and (max-width: 1280px) {
-    #myTopnav {
-        display: none;
+@media screen and (max-width: 1260px) {
+    .M-Title a{
+        font-size: 0.7em;
+    }
+
+    .topnav a{
+        font-size: 0.7em;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.5em;
+        top: 0;
+        z-index: 2;
+        width: 100vw;
+        height: 100vh;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(5px);
+        transform: translateX(100vw);
+        transition: transform ease 0.5s;
+    }
+
+    .M-Title a {
+        margin-right: 50vh;
+    }
+    .topnav a{
+        color:white;
+        opacity: 1;
+    }
+
+    .topnav-active {
+        transform: translateX(0vw);
     }
 
     .Burger_Menu {
         display: inline-block;
+        z-index: 3;
+        position: absolute;
+        right: 10vw;
     }
-    
+
+}
+
+@media screen and (max-width: 678px) {
+    .M-Title a {
+        margin-right: 25vh;
+    }
+
+}
+@media screen and (max-width: 365px) {
+    .M-Title a {
+        margin-right: 20vh;
+    }
+
 }
   
