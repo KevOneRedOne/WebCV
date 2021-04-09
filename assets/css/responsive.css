@@ -1,0 +1,26 @@
+/*------------------------5th part of the CSS : Responsive Web page------*/
+
+/* .. part of the CSS for the responsive */
+@media only screen and (min-width: 2152px){
+    /* .main_Content {
+        margin-left: 50vh;
+        margin-right: 50vh;
+    } */
+    
+}
+@media only screen and (min-width: 1720px){
+    /* .main_Content {
+        margin-left: 30vh;
+        margin-right: 30vh;
+    } */
+    
+}
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
