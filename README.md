@@ -2,6 +2,15 @@
 
 ## Présentation
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d243fdbf-c849-4c12-a3b2-3f409b425441/deploy-status)](https://app.netlify.com/sites/webcvalveskevin/deploys)
+Mon projet de fin de première année de Bachelor en Informatique était de realiser un site CV.
 
-https://webcvalveskevin.netlify.app
+
+## Mon site 
+
+Voici la carte de visite de mon site internet CV.
+
+[!image](/assets/img/Cartevisite.PNG)
+
+Voici le lien vers mon site :
+
+![link](https://webcvalveskevin.netlify.app)
