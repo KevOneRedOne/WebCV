@@ -9,8 +9,8 @@ Mon projet de fin de première année de Bachelor en Informatique était de real
 
 Voici la carte de visite de mon site internet CV.
 
-[!image](/assets/img/Cartevisite.PNG)
+![image](/assets/img/Cartevisite.PNG)
 
 Voici le lien vers mon site :
 
-![link](https://webcvalveskevin.netlify.app)
+https://webcvalveskevin.netlify.app
