@@ -82,6 +82,7 @@
 .cardx{
     display: flex;
     align-items: center;
+    border-radius: 30px;
     margin-top: 1vw;
     height: 25vh;
     background-color: #111111;
