@@ -6,6 +6,8 @@ Voici le lien vers mon site :
 
 https://webcvalveskevin.netlify.app
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b6dae75b-bbc4-4cf7-b3a3-7bf6eb8984ca/deploy-status)](https://app.netlify.com/sites/webcvalveskevin/deploys)
+
 <hr>
 
 ## Présentation
