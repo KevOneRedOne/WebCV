@@ -21,5 +21,9 @@ My final project of 1st year in Bachelor in Computer Science was to create a CV 
 This project is being improved, which explains the presence of some display problems.
 
 
+## Visit card
+
+![image](/assets/img/Screen/visitcard.png)
+
 
 
